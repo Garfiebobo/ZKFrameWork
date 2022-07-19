@@ -5,7 +5,13 @@ namespace ZKFreamWork
 {
     public interface IManager
     {
+        void OnCreate();
 
+        void OnUpdate();
+
+        void OnDestory();
+
+        void OnGUI();
     }
 }
 
